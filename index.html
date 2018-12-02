@@ -1,628 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128387325-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
 
-  gtag('config', 'UA-128387325-1');
-</script>
+    @media (max-width: 559px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
 
-<meta charset="utf-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Businnes, Portfolio, Corporate"> 
-<meta name="Author" content="WebThemez"> 
-<title>Home</title>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
-<link rel="stylesheet" href="elegant_font/style.css" />
-<!--[if lte IE 7]><script src="elegant_font/lte-ie7.js"></script><![endif]-->
-<link rel="stylesheet" href="css/magnific-popup.css">
-<link rel="stylesheet" href="css/slider-pro.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.transitions.css">
-<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="elegant_font/style.css"> 
-<link rel="stylesheet" href="css/style.css"> 
-<link rel="icon" href="images/icon.png">
+    @media (min-width: 560px) and (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 700px;
+      }
+    }
 
-<!--[if lt IE 9]>
-	<script src="js/html5shiv.min.js"></script>
-	<script src="js/respond.min.js"></script>
-	<script type="text/javascript" src="js/selectivizr.js"></script>
-<![endif]-->
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+  </style>
 </head>
 
 <body>
-<!-- Preloader -->
-<div class="preloader">
-	<div class="status"></div>
-</div>
-
-<!-- Header End -->
-<header>
-	<!-- Navigation Menu start-->
-	
-<nav id="topNav" class="navbar navbar-default main-menu">
-<div class="container">
-	<button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-		☰
-	</button> 
-	 <a class="navbar-brand page-scroll" href="#slider">
-	 	< <img src="images/title.png" >
-	 </a> 
-
-	<div class="collapse navbar-toggleable-sm" id="collapsingNavbar">
-		<ul class="nav navbar-nav">
-			 <li class="active">
-						<a href="#slider">HOME</a>
-					</li>
-					<li>
-						<a href="#about">ABOUT</a>
-					</li>
-					 <li>
-						<a href="#services">SERVICES</a>
-					</li>
-					 <li>
-						<a href="#menuCard">Price</a>
-					</li> 
-					<li>
-						<a href="#portfolio">GALLERY</a>
-					</li> 
-					
-					 <li>
-						<a href="#clients">FEEDBACK</a>
-					</li>
-					<li>
-						<a href="#contact">CONTACT US</a>
-					</li>
-		</ul> 
-	</div>
-</div>
-</nav>
-
-	
-</header>
-<!-- Header End -->
-
-
-<section class="slider-pro slider" id="slider">
-	<div class="sp-slides">
-
-		<!-- Slides -->
-		<div class="sp-slide main-slides">
-			<div class="img-overlay"></div>
-
-			<img class="sp-image" src="images/slider/slider-img-1.jpg" alt="Slider 1"/>
-
-			<h1 class="sp-layer slider-text-big"
-			data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-			<span class="highlight-texts">Best Massage Therapies</span>
-			</h1>
-
-			<p class="sp-layer"
-			data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-				Lorem ipsum dolor sit amectetur adipici
-			</p>
-		</div>
-		<!-- Slides End -->
-
-		<!-- Slides -->
-		<div class="sp-slide main-slides">
-		<div class="img-overlay"></div>
-			<img class="sp-image" src="images/slider/slider-img-2.jpg" alt="Slider 2"/>
-
-			<h1 class="sp-layer slider-text-big"
-			data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-			<span class="highlight-texts">Best Spa Services</span>
-			</h1>
-
-			<p class="sp-layer"
-			data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-				...
-			</p>
-		</div>
-		<!-- Slides End -->
-
-		<!-- Slides -->
-		<div class="sp-slide main-slides">
-			<div class="img-overlay"></div>
-
-			<img class="sp-image" src="images/slider/slider-img-3.jpg" alt="Slider 3"/>
-
-			<h1 class="sp-layer slider-text-big"
-			data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
-			<span class="highlight-texts">...</span>
-			</h1>
-
-			<p class="sp-layer"
-			data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
-				...
-			</p>
-		</div>
-		<!-- Slides End -->
-
-	</div>
-</section>
-<!-- Main Slider End -->
-
-
-<section id="about" class="about-sec section-wrapper description">
-	<div class="container">
-		<div class="row">
-			<!-- Section Header -->
-			<div class="col-md-12 col-sm-12 col-xs-12 section-header wow fadeInDown">
-				<h2><span class="highlight-text">About</span></h2>
-			   
-				<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-					Comming soon
-				</p>
-			</div>
-			<!-- Section Header End -->
-
-			<div class="col-md-6 col-sm-6 col-xs-12 custom-sec-img wow fadeInDown">
-				<img src="images/features.jpg" alt="Custom Image">
-			</div>
-
-			<div class="col-md-6 col-sm-6 col-xs-12 customized-text wow fadeInDown black-ed">
-			<p>Massage</p>
-				<div class="row"> 
-					<div class="col-md-11">
-						<strong>Reflexology</strong>
-						<p>...</p>
-					</div>
-				</div>
-				<div class="row"> 
-					<div class="col-md-11">
-						<strong>Deep Tissue Massage</strong>
-						<p></p>
-					</div>
-				</div>
-				<div class="row"> 
-					<div class="col-md-11">
-						<strong>Swedish Massage</strong>
-						<p>...</p>
-					</div>
-				</div>
-				<div class="row"> 
-					<div class="col-md-11">
-						<strong>Facial</strong>
-						<p>...</p>
-					</div>
-				</div>
-
-				<div class="row"> 
-					<div class="col-md-11">
-						<strong>Body scrub</strong>
-						<p>...</p>
-					</div>
-				</div>
-
-			</div>
-		</div> 
-	</div>
-</section> 
-
-<section id="services" class="section-wrapper">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section Header -->
-			<div class="col-md-12 col-sm-12 col-xs-12 section-header wow fadeInDown">
-				<h2><span class="highlight-text">Services</span></h2>
-			   
-				<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">...</p>
-			</div>
-			<!-- Section Header End -->
-
-			<div class="our-services">
-		 
-	
-	 <div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".2s">
-					<div class="service-box">
-						<div class="icon"> <h3>Stone Massage</h3>
-						</div> 
-						<p>...</p>
-						<img src="images/breakfast.jpg" alt="Custom Image">
-						</div> 
-</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".2s">
-					<div class="service-box">
-						<div class="icon"> <h3>Foot Spa </h3>
-						</div>
-						
-						<p>...</p>
-						<img src="images/lunch.jpg" alt="Custom Image">
-					</div>
-</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".2s">
-					<div class="service-box">
-						<div class="icon"> <h3>Facial Massage</h3>
-						</div>
-						
-						<p>...</p>
-						<img src="images/dinner.jpg" alt="Custom Image">
-					</div>
-</div>
-				 
-				</div> 
-				<div class="row">
-				 
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".1s">
-					<div class="service-box">
-						<div class="icon">
-							<i class="icon_star-half_alt"></i><h3>Couples Massage</h3>
-						</div>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla.</p>
-					</div>
-</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".1s">
-					<div class="service-box">
-						<div class="icon">
-							<i class="icon_music"></i><h3>Shiatsu Massage</h3>
-						</div>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla.</p>
-					</div>
-</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 text-xs-center wow fadeInDown" data-wow-delay=".1s">
-					<div class="service-box">
-						<div class="icon">
-							<i class="icon_cog"></i><h3>Body Scrub</h3>
-						</div>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium quam nulla.</p>
-					</div>
-</div>
-				</div>
-			</div> 
-
-		</div>
-	</div>
-</section> 
-
-
-<section class="menus style3" id="menuCard">
-	<h1> Prices </h1>
-	<img src="images/pricetable.png" alt="">
-</section>
-
-
-<section id="portfolio" class="bgSection portfolio-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section Header -->
-			<div class="col-md-12 col-sm-12 col-xs-12 section-header wow fadeInDown">
-				<h2><span class="highlight-text">Gallery</span></h2>
-			   
-				<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">...</p>
-			</div>
-			<!-- Section Header End -->
-
-		</div>
-	</div>
-
-	<!-- Works -->
-	<div class="portfolio-works wow fadeIn" data-wow-duration="2s">
-
-		<!-- Filter Button Start -->
-		<div id="portfolio-filter" class="portfolio-filter-btn-group">
-			<ul>
-				<li>
-					<a href="#" class="selected" data-filter="*">ALL</a> 
-					<a href="#" data-filter=".web">Facial</a> 
-					<a href="#" data-filter=".seo">Scrub</a> 
-					<a href="#" data-filter=".works">Stone</a> 
-					<a href="#" data-filter=".brands">Massage</a> 
-				</li>
-			</ul>
-		</div>
-		<!-- Filter Button End -->
-
-		<div class="portfolio-items">
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item web seo">
-
-				<img src="images/img-portfolio/01.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/01.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item works seo">
-
-				<img src="images/img-portfolio/02.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/02.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item web">
-
-				<img src="images/img-portfolio/03.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/03.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item web works brands">
-
-				<img src="images/img-portfolio/04.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/04.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Portfolio Items -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item web brands">
-
-			   <img src="images/img-portfolio/05.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/05.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item works seo">
-
-				<img src="images/img-portfolio/06.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/06.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<div class="item portfolio-item brands seo">
-
-				<img src="images/img-portfolio/01.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/07.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			<!-- Portfolio Items -->
-			<div class="item portfolio-item web seo works">
-
-				<img src="images/img-portfolio/02.jpg" alt="">
-				<div class="portfolio-details-wrapper">
-					<div class="portfolio-details">
-						<div class="portfolio-meta-btn">
-							<ul class="work-meta">
-								<li class="lighbox"><a href="images/img-portfolio/08.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- Portfolio Items End -->
-
-			
-
-		</div>
-	</div>
-	<!-- Works End -->
-
-
-</section>
-<!-- Portfolio Section End -->
-
-
-
-
-<section id="info" class="info-section">
-<div class="container text-xs-center">
-	 <!-- Section Header -->
-			<div class="col-md-12 col-sm-12 col-xs-12 section-header wow fadeInDown">
-				<h2><span class="highlight-text">Stats</span></h2>
-			   
-				<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nam corporis quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.</p>
-			</div>
-			<!-- Section Header End -->
-	<div class="row wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-		<div class="col-md-3 col-sm-6 col-xs-12 text-xs-center">
-			
-			<i class="icon_mic_alt wow pulse" style="visibility: visible; animation-name: pulse;"></i>
-			<h4>Margins</h4>
-			<h1 class="text-primary">100,000</h1>
-		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 text-xs-center">
-			
-			<i class="icon_gift_alt wow pulse" style="visibility: visible; animation-name: pulse;"></i>
-			<h4>Completed</h4>
-			<h1 class="text-primary">34201</h1>
-		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 text-xs-center">
-		  
-			<i class="icon_mobile wow pulse" style="visibility: visible; animation-name: pulse;"></i>
-<h4>Projects</h4>               
-		   <h1 class="text-primary">152</h1>
-		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 text-xs-center">
-		   
-			<i class="icon_lightbulb_alt wow pulse" style="visibility: visible; animation-name: pulse;"></i>
-<h4>Customers</h4>               
-		   <h1 class="text-primary">56500</h1>
-		</div>
-	</div> 
-</div>
-</section>
-
-
-<!-- Clients Section -->
-<section id="clients" class="clients-section">
-  <!-- Container Ends -->
-  <div class="container">
-	<div class="row">
-	<!-- Section Header -->
-		  <div class="col-md-12 col-sm-12 col-xs-12 section-header wow fadeInDown">
-				<h2><span class="highlight-text">Customer Feedback</span></h2> 
-				</div>
-			<!-- Section Header End --> 
-<div class="row">
-	<div class="col-md-8 col-md-offset-2">
-		<div class="testimonials">
-			<div class="active item">
-			  <blockquote><p>...</p></blockquote>
-			  <div class="carousel-info">
-				<img alt="" src="images/img1-small.jpg" class="pull-left">
-				<div class="pull-left">
-				  <span class="testimonials-name">Lina Mars</span>
-				  <span class="testimonials-post">Commercial Director</span>
-				</div>
-			  </div>
-			</div>
-		</div>
-	</div>
-</div> 
-	 </div>
-  </div><!-- Container Ends -->
-</section>
-<!-- Client Section End -->  
-
-
-
-
-<!-- Contact Section End -->
-<section id = "contact" class="footer-container">
-	<div class="container">
-		<div class="row footer-containertent">
-			<div class="col-md-4">
-				<img src="images/icon.png" alt="">
-				<p></p>
-			</div>
-			<div class="col-md-4">
-				<h4>News & Updates</h4>
-				<p>Comming soon</p>
-			</div>
-			<div class="col-md-4 contac-us">
-				<h4>Contact Us</h4>
-				<ul>
-						<li><i class="fa fa-home"></i>3009 New Street, Burlington, Ontario. L7R 1K3</li>
-						<li><i class="fa fa-phone"></i>905-633-9992</li>
-						<li><i class="fa fa-envelope-o"></i>contact@serenewellness.ca</li>
-					</ul> 
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<footer>
-
-	<div class="container">
-		<div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.339648, -79.785966&amp;q=3009%20New%20Street%2C%20Burlington%2C%20Ontario%2C%20Canada+(Serene%20Massage%20%26%20Wellness)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe></div><br />
-		<div class="row">
-			<div class="footer-containertent">
-
-				<ul class="footer-social-info">
-					<li>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-					</li>
-				</ul>
-				<br/><br/>
-				<p>Ruihan Wang @ 2018</p>
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer End -->
-
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/modernizr.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/jquery.easypiechart.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fitvids.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/smooth-scroll.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.sliderPro.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="contact/jqBootstrapValidation.js"></script>
-<script src="contact/contact_me.js"></script>
-<script src="js/custom.js"></script>
 
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <strong>Serene Massage</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+ 
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view">
+
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+      <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
+    </video>
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="text-center white-text mx-5 wow fadeIn">
+
+        <h1 class="display-4 mb-4">
+          <strong>Coming Soon!</strong>
+        </h1>
+
+        <!-- Time Counter -->
+        <p id="time-counter" class="border border-light my-4"></p>
+
+
+        <h4 class="mb-4">
+          <strong>We're working hard to finish the development of this site. </strong>
+        </h4>
+
+        
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small wow fadeIn">
+
+    <!--Call to action-->
+    
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+   
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+
+  <!-- Time Counter -->
+  <script type="text/javascript">
+    // Set the date we're counting down to
+    var countDownDate = new Date();
+    countDownDate.setDate(countDownDate.getDate() + 30);
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("time-counter").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
 </body>
+
 </html>
